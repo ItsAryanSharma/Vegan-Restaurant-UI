@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Vegan Food Restaurant</title>
+    <link rel="icon" href="Images/restaurant.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Css stylesheet link -->
+    <link rel="stylesheet" href="P_2.css">
+
+    <!-- Font-Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/logo-1.png" alt="Bootstrap" width="70px" height="70px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered navbar-toggler"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#story">Why Vegan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="#explore-food">Best Sellers</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#try-once">In Demand</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#must-try">Must Try</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="P_2b.html">Menu</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li><button class="main-btn">01222 01222</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section 1 => top banner -->
+
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>Nothing brings people together like vegan food.</h1>
+                        <p>“The secret of food lies in memory – of thinking and then knowing what the taste of cinnamon
+                            or the dish is.”</p>
+                        <div class="mt-4">
+                            <a href="P_2b.html">
+                                <button class="main-btn">Menu <i class="fas fa-shopping-basket ps-3"></i></button></a>
+                            <a href="P_2b.html">
+                                <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Menu <i
+                                        class="fas fa-angle-right ps-3"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animate">
+
+                <div class="rotate">
+                    <i class="fa-solid fa-burger"></i>
+                    <i class="fa-solid fa-pizza-slice"></i>
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <i class="fa-solid fa-bowl-rice"></i>
+                    <i class="fa-solid fa-burger"></i>
+                    <i class="fa-solid fa-pizza-slice"></i>
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <i class="fa-solid fa-bowl-rice"></i>
+                    <i class="fa-solid fa-burger"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2 => counter -->
+
+    <section id="counter">
+        <section class="counter-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count1"></span>+
+                        </h2>
+                        <p>Customers Served</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count2"></span>+
+                        </h2>
+                        <p>Reerved Tables</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count3"></span>+
+                        </h2>
+                        <p>Tables left</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count4"></span>+
+                        </h2>
+                        <p>Satisfied Customers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Section 3 => book-food-3 -->
+
+    <section id="book-food-3">
+        <div class="book-food-3">
+            <div class="container book-food-text-3">
+                <div class="row text-center">
+                    <h2>Our motivation for choosing a vegan restaurant is revealed by the quotation</h2>
+                    <h3>When you meet the farmers and go to the farms, you see that they treat their animals like
+                        their family. It makes a big difference.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 => about -->
+
+    <section id="about">
+        <div class="about-section wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12 mb-lg-0 mb-5" style="margin-top: 122px;">
+                        <div class="card border-0">
+                            <img src="Images/img- 1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 text-sec">
+                        <h2 style="margin-top: 22px;">"As long as you have food in your mouth you have solved all
+                            questions for the time being."
+                        </h2>
+                        <p>The fabric of Vegan Food was born out of love and respect for these
+                            humble deli creations, met with a desire to bring quality ingredients
+                            to the table. Simply put, we’re here to bring you a vegan
+                            experience you can feel good about.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container food-type">
+                <div class="row align-items-center" style="margin-top: 52px;">
+                    <div class="col-lg-5 col-md--12 text-sec mb-lg-0 mb-5">
+                        <h2>“ The secret of success is to eat what you
+                            like and let the food fight it out inside.”</h2>
+                        <p>Customers typically select the product or service at a restaurant based on multiple
+                            attributes, such as food quality, location convenience, price, hygiene, design
+                            and layout, taste, and nutritional value. However, vegan restaurants are different
+                            from general restaurants.Therefore, the attributes that can be ascribed to vegan
+                            restaurants are: </p>
+                        <ul class="list-unstyled py-3">
+                            <li>Health and Beauty</li>
+                            <li>Guilt and Curiosity</li>
+                            <li>Environmental concerns</li>
+                        </ul>
+                        <a href="P_2a.html">
+                            <button class="main-btn mt-4">Learn More</button>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="card border-0">
+                            <img src="Images/img- 2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 => story -->
+
+    <section id="story">
+        <div class="story-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content" style="margin-top: 120px; margin-left: 3px;">
+                            <h2>" A recipe has no soul. You, as the cook, must bring soul to the recipe. "</h2>
+                            <p>Vegan Food is the fuel that keeps us running throughout the day, and it also supports the
+                                body’s metabolic process
+                                and ensures we remain healthy. We need to understand the importance of food to build
+                                healthy eating habits in the
+                                long term. We also need to learn that the body needs energy from healthy vegan food to
+                                conduct day-to-day activities.</p>
+                            <p>Click on the button below to know the reasons to go VEGAN.</p>
+                            <a href="https://thehumaneleague.org/article/reasons-to-go-vegan#:~:text=Veganism%20is%20about%20modifying%20consumption,a%20food%20and%20lifestyle%20choice."
+                                rel="" target="_blank">
+                                <button class="main-btn mt-3">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6 => explore food -->
+
+    <section id="explore-food">
+        <div class="explore-food wrapper">
+            <div class="container">
+                <div class="row" style="margin-top: 70px;">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center">
+                            <h2 style="margin-top: 122px;">Let's explore our Best Sellers</h2>
+                            <p>Vegan Food is a comfortable, brasserie-style restaurant offering everything you love
+                                about vegan cuisine without the attitude.
+                                We features classic dishes, as well as fresh salads and juicy hamburgers. Here are
+                                our top three best sellers you must try.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="Images/img- 3.jpg" alt="" class="img-fluid">
+                            <div class="pt-3" style="margin-left: 12px;">
+                                <h4>Farm Fresh Pizza</h4>
+                                <span>Rs.220 <del>Rs.270</del></span>
+                                <a href="P_2b.html">
+                                    <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                            class="fas fa-angle-right ps-3"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="Images/img- 4.jpg" alt="" class="img-fluid">
+                            <div class="pt-3" style="margin-left: 12px;">
+                                <h4>Loaded Wafflee</h4>
+                                <span>Rs.120 <del>Rs.160</del></span>
+                                <a href="P_2b.html">
+                                    <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                            class="fas fa-angle-right ps-3"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="Images/img- 5.jpg" alt="" class="img-fluid">
+                            <div class="pt-3" style="margin-left: 12px;">
+                                <h4>Loaded Veggie Burger</h4>
+                                <span>Rs.110 <del>Rs.150</del></span>
+                                <a href="P_2b.html">
+                                    <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                            class="fas fa-angle-right ps-3"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7 => book-food-1 -->
+
+    <section id="book-food-1">
+        <div class="book-food-1">
+            <div class="container book-food-text">
+                <div class="row text-center">
+                    <h2>“Give us the opportunity to provide you delectable flavours that makes you go yummmmm.”</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8 => try once -->
+
+    <section id="try-once">
+        <div class="try-once wrapper">
+            <div class="container">
+                <div class="row" style="margin-top: 70px;">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center">
+                            <h2 style="margin-top: 122px;">Let's explore our Items In Demand</h2>
+                            <p>If you really want to make a friend, go to someone's house and have a Mocktail with
+                                him... the people
+                                who give you their drink give you their heart.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-5" style="padding-left: 52px;padding-right: 52px;">
+                <div class="try">
+                    <div class="card">
+                        <img src="Images/mocktail-(1).jpg" alt="one">
+                        <div class="info" style="margin-left: 12px;">
+                            <h4>Summer Cup</h4>
+                            <span>Rs.120 <del>Rs.160</del></span>
+                            <a href="P_2b.html">
+                                <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                        class="fas fa-angle-right ps-3"></i></button></a>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Images/mocktail-(2).jpg" alt="one">
+                        <div class="info" style="margin-left: 12px;">
+                            <h4>Faux Fizz</h4>
+                            <span>Rs.120 <del>Rs.160</del></span>
+                            <a href="P_2b.html">
+                                <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                        class="fas fa-angle-right ps-3"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Images/mocktail-(3).jpg" alt="one">
+                        <div class="info" style="margin-left: 12px;">
+                            <h4>Negroni</h4>
+                            <span>Rs.120 <del>Rs.160</del></span>
+                            <a href="P_2b.html">
+                                <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                        class="fas fa-angle-right ps-3"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Images/mocktail-(4).jpg" alt="one">
+                        <div class="info" style="margin-left: 12px;">
+                            <h4>Virgin Mojito</h4>
+                            <span>Rs.120 <del>Rs.160</del></span>
+                            <a href="P_2b.html">
+                                <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                        class="fas fa-angle-right ps-3"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Images/mocktail-(5).jpg" alt="one">
+                        <div class="info" style="margin-left: 12px;">
+                            <h4>Fruit Beer</h4>
+                            <span>Rs.120 <del>Rs.160</del></span>
+                            <a href="P_2b.html">
+                                <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                        class="fas fa-angle-right ps-3"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9 => book-food-1 -->
+
+    <section id="book-food-1">
+        <div class="book-food-1">
+            <div class="container book-food-text">
+                <div class="row text-center">
+                    <h2>"Food, in the end, in our own tradition, is something holy. It's not about nutrients and
+                        calories. It's about sharing. It's about honesty. It's about identity."</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 10 => must-try -->
+
+    <section id="must-try">
+        <div class="must-try wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center">
+                            <h2 style="margin-top: 122px;">Let's explore our must try</h2>
+                            <p style="margin-bottom: 52px;">Your hunger is appreciated. Welcome to our homely location
+                                where you may savour delicious
+                                meals quietly. Let us fill you up with our cuisine. Here are our top recommended Thalis
+                                for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="slide">
+                        <div class="item" style=" background-image: url(Images/try-\(1\).jpg);">
+                            <div class="content">
+                                <div class="name">
+                                    <h6>Maharaja Thali</h6>
+                                    <span>Rs.340 <del>Rs.430</del></span>
+                                    <a href="P_2b.html">
+                                        <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                                class="fas fa-angle-right ps-3"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style=" background-image: url(Images/try-\(2\).jpg);">
+                            <div class="content">
+                                <div class="name">
+                                    <h6>North Indian Thali</h6>
+                                    <span>Rs.340 <del>Rs.430</del></span>
+                                    <a href="P_2b.html">
+                                        <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                                class="fas fa-angle-right ps-3"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style=" background-image: url(Images/try-\(3\).jpg);">
+                            <div class="content">
+                                <div class="name">
+                                    <h6>South Indian Thali</h6>
+                                    <span>Rs.340 <del>Rs.430</del></span>
+                                    <a href="P_2b.html">
+                                        <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                                class="fas fa-angle-right ps-3"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style=" background-image: url(Images/try-\(4\).jpg);">
+                            <div class="content">
+                                <div class="name">
+                                    <h6>Delux Thali</h6>
+                                    <span>Rs.340 <del>Rs.430</del></span>
+                                    <a href="P_2b.html">
+                                        <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                                class="fas fa-angle-right ps-3"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style=" background-image: url(Images/try-\(5\).jpg);">
+                            <div class="content">
+                                <div class="name">
+                                    <h6>Special Punjabi Thali</h6>
+                                    <span>Rs.340 <del>Rs.430</del></span>
+                                    <a href="P_2b.html">
+                                        <button class="mt-4 main-btn" style="margin-bottom: 12px;">Menu <i
+                                                class="fas fa-angle-right ps-3"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="prev"><i class="fa-solid fa-arrow-left-long"></i></button>
+                        <button id="next"><i class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 11 => testimonial -->
+
+    <section id="testimonial">
+        <div class="wrapper testimonial-section">
+            <div class="container text-center">
+                <div class="text-center pt-4">
+                    <h2>Testimonial</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-10 offset-lg-1">
+                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-caption">
+                                        <img src="Images/review-1.jpg" alt="...">
+                                        <p>This cozy restaurant has left the best impressions! Hospitable hosts,
+                                            delicious dishes, beautiful presentation and wonderful dessert.</p>
+                                        <h5>Ethan Hunt</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="Images/review-2.jpg" alt="...">
+                                        <p>It’s a great experience. The ambiance is very welcoming and charming. Amazing
+                                            food and service.</p>
+                                        <h5>John Wick</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="Images/review-3.jpg" alt="...">
+                                        <p>This place is great! Atmosphere is chill and cool. They know what
+                                            they’re doing and what they’re talking about, and you can tell making the
+                                            customers happy is their main priority.</p>
+                                        <h5>Tom Shelby</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 12 => faq -->
+
+    <section id="faq">
+        <div class="faq wraper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center pb-4">
+                            <h2>Frequently Asked Questions</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-sm-6 mb-4">
+                        <h4><span># </span>How do I Make a regular Table Booking?</h4>
+                        <p>It's a piece of cake - once you've simply select your Date and Time required, and then so
+                            long as we have an email address and phone number your booking is instantly confirmed the
+                            minute you hit "Book"</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span># </span>Is it open every day of the week?</h4>
+                        <p>We close on Monday evening for our weekly rest.</p>
+                        <p>We are open every day for the rest of the year.</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span># </span>Are there kid's menus?</h4>
+                        <p>We do not have a set kids’ menu but we do offer alternatives for children on request.</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span># </span>Does the restaurant have a telephone number to reserve a table?</h4>
+                        <p>Yes, it is 01222 01222</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span># </span>What's the capacity on the restaurant?</h4>
+                        <p>120 people</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span># </span>At what time can we have lunch and dinner in the restaurant?</h4>
+                        <p>Lunch is serverd from 13:00-15:30</p>
+                        <p>Dinner is serverd from 20:00-22:30</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span># </span>Can i choose between the dining room and the terrace? Can i book a table on
+                            the terrace?</h4>
+                        <p>You can book a table on the terrace. However, if the weather is bad, these reservations are
+                            not guaranteed because we cannot be sure that the reservation can be moved to the dining
+                            room (it may be full).</p>
+                        <p>If the weather is bad, reservations on the terrace are cancelled as there are no awnings or
+                            glass enclosures to allow us to serve food.</p>
+                        <p>In any event, we always try to move all reservations inside the restaurant.</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span># </span>At what time can we have breakfast in the restaurant?</h4>
+                        <p>Currently we dont serve breakfast, we are thinking to get started with it in the future.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 13 => book-food-2 -->
+
+    <section id="book-food-2">
+        <div class="book-food-2">
+            <div class="container book-food-text">
+                <div class="row text-center">
+                    <h2>“Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.”</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 14 => newsletter -->
+
+    <section id="newsletter">
+        <div class="newsletter wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="sol-sm-12">
+                        <div class="text-content text-center pb-4 pt-5">
+                            <h2>Hurry up! Subscribe our Newsletter and get 22% off</h2>
+                            <p>Limited time offer for this month, no credit card required.</p>
+                            <form action="" class="newsletter">
+                                <div class="row">
+                                    <div class="col-md-8 col-12">
+                                        <input type="email" class="form-control" placeholder="Enter your EMAIL"
+                                            name="email">
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <button class="main-btn" type="submit">Subscribe</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer id="footer">
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12  text-center">
+                        <a class="footer-link" href="#home">Home</a>
+                        <a class="footer-link" href="#about">About</a>
+                        <a class="footer-link" href="#story">Why Vegan</a>
+                        <a class="footer-link" href="#explore-food">Best Seller</a>
+                        <a class="footer-link" href="#must-try">Must Try</a>
+                        <a class="footer-link" href="#try-once">In Demand</a>
+                        <a class="footer-link" href="P_2b.html">Menu</a>
+                        <a class="footer-link" href="#testimonial">Reviews</a>
+                        <a class="footer-link" href="#faq">FAQ</a>
+                        <div class="footer-social pt-5 text-center">
+                            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569888%7Cb%7Cfacebook%20signin%7C&placement=&creative=589460569888&keyword=facebook%20signin&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221832%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-3821998899%26loc_physical_ms%3D9050500%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwuNemBhCBARIsADp74QQk1nMb5EYdFAW2bOZ9kMjafaIzPXW8Uk5CEnAqX8-x9cwBCxvSqmwaAl5fEALw_wcB"
+                                target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+                                target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.snapchat.com/" target="_blank"><i
+                                    class="fa-brands fa-snapchat"></i></a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i
+                                    class="fa-solid fa-envelope"></i></a>
+                            <a href="https://globfone.com/call-phone/" target="_blank"><i
+                                    class="fa-solid fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="footer-copy">
+                            <div class="copy-right text-center pt-5">
+                                <p class="text-light">By: Aryan Sharma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Js-librabry links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+    <!-- Attached JavaScript link -->
+    <script src="P_2.js"></script>
+
+</body>
+
+</html>
