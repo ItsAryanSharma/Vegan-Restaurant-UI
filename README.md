@@ -14,3 +14,5 @@ To get started, follow these simple steps:
 2. Open the `P_2.html` file in your web browser.
 3. Start exploring.
 
+Images of the website :
+![Home](https://github.com/ItsAryanSharma/Vegan-Restaurant-UI/assets/123888689/396c732c-8143-4905-bb75-7a564f50ccc8)
