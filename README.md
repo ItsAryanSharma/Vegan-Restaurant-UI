@@ -15,7 +15,7 @@ To get started, follow these simple steps:
 3. Start exploring.
 
 Images of the website :
-![Home](https://github.com/ItsAryanSharma/Vegan-Restaurant-UI/assets/123888689/c118aaa4-cf0d-4cac-af0e-4d71de60088b)
+![Home](https://github.com/ItsAryanSharma/Vegan-Restaurant-UI/assets/123888689/bf2ca358-703b-45fe-a8f8-fed9fc2a71ac)
 
 ![about-us](https://github.com/ItsAryanSharma/Vegan-Restaurant-UI/assets/123888689/927f3179-7b90-4be0-96fa-b0cba4f5a308)
 
